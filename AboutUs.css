@@ -1,0 +1,38 @@
+/* NAVBAR */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #bf9b42 !important; /* DailyScent Gold */
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  color: #bf9b42 !important; /* Updated gold for Home, Mens, Womens, Best Selling */
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0d68a !important; /* lighter gold on hover */
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+/* Navbar Buttons */
+.btn-outline-secondary {
+  color: #bf9b42;
+  border-color: #bf9b42;
+  transition: 0.3s;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #bf9b42;
+  border-color: #bf9b42;
+}
